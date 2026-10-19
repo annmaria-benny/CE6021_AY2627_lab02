@@ -102,6 +102,7 @@ def evaluate():
 
     if figs:
         save_html(*figs, output_path=os.path.join(LAB_DIR, "lab02_results.html"))
+        
 
 if __name__ == "__main__":
     evaluate()
